@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Helvetica Neue', sans-serif;
+    cursor:default;
+}
+.pointer{
+    height: 10px;
+    width: 10px;
+    background-color: white;
+    border-radius: 50%;
+    position: fixed;
+    z-index: 9;
+    color: black;
+    font-size: 3px;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    background-color: rgb(24, 24, 24);
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.textlogo {
+    background-color: #E7CFB1;
+    text-align: right;
+    padding: 0.2rem;
+    font-family: sans-serif;
+    font-weight: 900;
+    line-height: 1.1;
+    font-size: 99%;
+    max-lines: 1;
+    height: 60px;
+    width: 60px;
+    display: none;
+}
+
+.nright a {
+    text-decoration: none;
+    color: #E5813E;
+    font-size: 120%;
+    font-weight: 400;
+}
+
+.nright {
+    display: flex;
+    gap: 5rem;
+}
+
+.section1 {
+    overflow-x: hidden;
+    color: #F3C77C;
+    height: 80vh;
+    width: 100%;
+    overflow-y: hidden;
+    font-size: 3700%;
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(24, 24, 24);
+}
+
+.section2 {
+    overflow-x: hidden;
+    background-color: rgb(24, 24, 24);
+}
+
+.section2 img {
+    width: 100%;
+
+}
+
+.section3 {
+    overflow-x: hidden;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(24, 24, 24);
+}
+
+.section3 h1 {
+    color: #F3C77C;
+    font-size: 3000%;
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section4 {
+    height: 100vh;
+    width: 100%;
+    font-size: 130px;
+    flex-direction: column;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.s41 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.move {
+    background-color: black;
+    color: white;
+    display: flex;
+    overflow-x: hidden;
+}
+
+.marque img {
+    height: 60px;
+    color: white;
+    overflow-y: hidden;
+}
+
+.marque h1 {
+    font-size: 70px;
+}
+
+.marque {
+    display: flex;
+    align-items: center;
+    gap: 3vw;
+    padding: 0 1.5vw;
+    flex-shrink: 0;
+    overflow-y: hidden;
+}
+
+/* projects section starts here */
+
+.section6{
+    background-color: black;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem;
+}
+
+.clones{
+    background-color: black;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+    gap: 3rem;
+}
+.sites h1 a, .sites h3{
+    text-decoration: none;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(255, 255, 255, 0.712);
+}
+.sites h1 a:hover{
+    color: white;
+}
+.wizimg{
+    display: none;
+    height: 200px;
+    position: absolute;
+    left: 100px;
+    top: 35%;
+}
+.show{
+    display: block;
+}
+
+.layer{
+    background-color: rgba(255, 0, 0, 0);
+    cursor: pointer;
+    height: 70px;
+    width: 130px;
+    position: absolute;
+    z-index: 10;
+}
+
+/* project section ends */
